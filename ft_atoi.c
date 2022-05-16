@@ -6,10 +6,10 @@
 /*   By: aaggoujj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 17:25:12 by aaggoujj          #+#    #+#             */
-/*   Updated: 2021/11/27 11:30:55 by aaggoujj         ###   ########.fr       */
+/*   Updated: 2022/05/16 16:44:00 by aaggoujj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*
+
 #include "libft.h"
 
 int	ft_atoi(const char *str)
@@ -37,12 +37,3 @@ int	ft_atoi(const char *str)
 	}
 	return (result * n);
 }
-#include<stdio.h>
-int main()
-{
-	int i;
-	char *str = "2147483658";
-
-	printf("%d", ft_atoi(str));
-}
-*/
